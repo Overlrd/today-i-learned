@@ -3,7 +3,7 @@ A  collection of small notes detailing what I learn each day.
 
 ### Categories
 
-* [Computer Vision](computer_Vision)
+* [Computer Vision](#computer_Vision)
 
 ---
 
