@@ -9,4 +9,4 @@ A  collection of small notes detailing what I learn each day.
 
 ### Computer_Vision
 
-- [somethinng]()
+- [Fine tuning a pretrained model](computer_vision/fine_tuning_a_pretrained_model.md)
