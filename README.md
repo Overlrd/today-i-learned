@@ -16,3 +16,5 @@ A  collection of small notes detailing what I learn each day.
 ### Django
 
 - [Django SQL Models](django/django_sql_models.md)
+- [Django authenticate , login & logout modules](django/authenticate_login_logout.md)
+
