@@ -1,4 +1,4 @@
-#Django admin Panel
+# Django admin Panel
 
 While working on web apps , having a good admin panel is gold .(at least for me).
 
