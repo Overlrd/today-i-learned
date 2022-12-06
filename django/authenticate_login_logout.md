@@ -1,4 +1,4 @@
-#Authenticate , login and logout in django
+# Authenticate , login and logout in django
 
 At least any website have a register and login form.
 While coding with PHP i used to code the login and register modules from scratch.
