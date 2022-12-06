@@ -1,16 +1,16 @@
-#Conditions in JavaScript
+# Conditions in JavaScript
 if something , do something.
 
 The syntax to use conditions is JavaScript :
 
-```
+``` js
 if (condition) {
   statement1
 } else {
   statement2
 }
 ```
-
+``` js
 function testNum(a) {
   let result;
   if (a > 0) {
@@ -23,3 +23,7 @@ function testNum(a) {
 
 console.log(testNum(-5));
 // expected output: "NOT positive"
+```
+
+References :
+ - [if...-else - Javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Statements/if...else)
