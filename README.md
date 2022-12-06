@@ -5,6 +5,7 @@ A  collection of small notes detailing what I learn each day.
 
 * [Computer Vision](#computer_Vision)
 * [Django](#django)
+* [JavaScript](#javascript)
 ---
 
 ### Computer_Vision
@@ -17,4 +18,15 @@ A  collection of small notes detailing what I learn each day.
 
 - [Django SQL Models](django/django_sql_models.md)
 - [Django authenticate , login & logout modules](django/authenticate_login_logout.md)
+- [Django Admin Panel](django/admin_panel.md)
+<br/>
+
+
+### JavaScript
+- [Conditions](javascript/conditions.md)
+- [functions in Js](javascript/functions.md)
+- [QuerySelector](javascript/query_selector.md)
+<br/>
+
+
 
