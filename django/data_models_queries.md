@@ -46,3 +46,18 @@ class Entry(models.Model):
         return self.headline
 
 ```
+
+# Querying
+
+## Retrieving all objects
+With the **all** method you can retrieve all the ```Entry``` objects from the model.
+
+
+``` >>> all_entries = Entry.objects.all() ```
+
+## Retrieving a filtered object
+For retrieving specifif olters are very usefull.
+A filter looks like : ```filter(**kwargs)``` and return a queryset containing object matching with the given parameters.
+
+``` specific_entry = Entry.objects.all().filter(pub_date__year = 2006
+
