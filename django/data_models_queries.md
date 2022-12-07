@@ -3,14 +3,14 @@ Querying django models
 
 
 As **Django** provides the data models tool as layer on SQL databases to facilitate data manipulation in web apps ,
-It also provide a simple way to query these data models, filter , count , sort , count ... items.
+It also provide a simple way to query these data models, filtering , counting , sorting these  items.
 
-Let's us these models as example.
+Let's use these models as example.
 
 Here we have :
  - A **Blog** model , having two fields as attributes : name(the name of the blog article) , tagline(the taglines of the article)
  - An **Author** model , containing a name  en email attribute.
- - An **Entry** model containing the article's content, the related blog, the author or othors in a ```ManyToManyField``` field 
+ - An **Entry** model containing the article's content, the related blog, the author or authors in a ```ManyToManyField``` field 
 
 ``` python
 from datetime import date
@@ -50,7 +50,7 @@ class Entry(models.Model):
 # Querying
 
 ## Retrieving all objects
-With the **all** method you can retrieve all the ```Entry``` objects from the model.
+With the **all** method you can retrieve a QuerySet of all the ```Entry``` objects from the model.
 
 
 ``` >>> all_entries = Entry.objects.all() ```
@@ -58,12 +58,13 @@ With the **all** method you can retrieve all the ```Entry``` objects from the mo
 ## Retrieving a filtered object
 For retrieving specifif objetcs , filters are very usefull.
 A filter looks like : ```filter(**kwargs)``` and return a queryset containing object matching with the given parameters.
+ 
 
 ```python
 q1 = Entry.objects.all().filter(pub_date__year = 2006) 
 ``` 
 
-Here We're retrieving all the Entries published in 2006
+Here We're retrieving a QuerySet of all the Entries published in 2006
 And we can add another filter to this queryset like :
 
 ```python
