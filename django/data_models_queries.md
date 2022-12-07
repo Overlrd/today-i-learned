@@ -56,8 +56,40 @@ With the **all** method you can retrieve all the ```Entry``` objects from the mo
 ``` >>> all_entries = Entry.objects.all() ```
 
 ## Retrieving a filtered object
-For retrieving specifif olters are very usefull.
+For retrieving specifif objetcs , filters are very usefull.
 A filter looks like : ```filter(**kwargs)``` and return a queryset containing object matching with the given parameters.
 
-``` specific_entry = Entry.objects.all().filter(pub_date__year = 2006
+```python
+q1 = Entry.objects.all().filter(pub_date__year = 2006) 
+``` 
+
+Here We're retrieving all the Entries published in 2006
+And we can add another filter to this queryset like :
+
+```python
+q2 = q1.filter(authors = Luc)
+```
+
+Here we're filtering for the Entries written in 2006 by **Luc**
+and we can also **exclude** some objects like :
+
+```python
+q3 = q2.exclude(rating > 3)
+```
+
+Notice that the filter method as we have used here return a Queryset , not a single object .
+You can retrieve an object by using the  ***get*** method with the same prarmeters that we used with the ***filter***
+
+```python
+q4 = q3.get(number_of_comments > 50)
+```
+
+Here we retrieve an entry object , by filtering the entries written in 2006 by **Luc**, excluding those whith less than 3 points of rating, that was commented more than 50 time .
+
+
+References :
+ - [CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/)
+ - [Making queries | Django documentation](https://docs.djangoproject.com/en/4.1/topics/db/queries/)
+
+_Do not hesitate to submit your corrections to me in the event of an error in the lines above_
 
