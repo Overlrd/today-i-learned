@@ -6,6 +6,7 @@ A  collection of small notes detailing what I learn each day.
 * [Computer Vision](#computer_Vision)
 * [Django](#django)
 * [JavaScript](#javascript)
+* [Youtube](#youtube)
 ---
 
 ### Computer_Vision
@@ -30,4 +31,5 @@ A  collection of small notes detailing what I learn each day.
 <br/>
 
 
-
+### Youtube
+- [Timestamps](youtube/timestamps.md)
