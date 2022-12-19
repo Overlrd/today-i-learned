@@ -28,7 +28,7 @@ An python mplementation of that request :
 ```python
 import requests
 
-ENDPOINT = 'https://api.spotify.com/v1/users/314v7s32prl5rereab23odp3ehnq/playlists'
+ENDPOINT = 'https://api.spotify.com/v1/users/{user_id}/playlists'
 QAUTH_TOKEN = '******BQDT4Vv2d_h9dpdW*****'
 
 class Client():
