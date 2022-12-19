@@ -7,6 +7,7 @@ A  collection of small notes detailing what I learn each day.
 * [Django](#django)
 * [JavaScript](#javascript)
 * [Youtube](#youtube)
+* [Spotify API](#spotify)
 ---
 
 ### Computer_Vision
@@ -30,6 +31,10 @@ A  collection of small notes detailing what I learn each day.
 - [QuerySelector](javascript/query_selector.md)
 <br/>
 
+### Spotify API
+- [create a new playlist](spotify/new_playlist.md)
+- [list existing playlists](spotify/list_playlists.md)
+- [search for an item](spotify/search_item.md)
 
 ### Youtube
 - [Timestamps](youtube/timestamps.md)
