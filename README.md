@@ -32,7 +32,7 @@ A  collection of small notes detailing what I learn each day.
 <br/>
 
 ### Spotify API
-- [create a new playlist](spotify/new_playlist.md)
+- [create a new playlist](spotify/add_playlist.md)
 - [list existing playlists](spotify/list_playlists.md)
 - [search for an item](spotify/search_item.md)
 
