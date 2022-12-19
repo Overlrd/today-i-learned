@@ -1,6 +1,6 @@
 # Adding a new playlist through the spotify API
 
-The spotify API makes possible to easily create new playlist via a simple api requests.
+The spotify API makes possible to easily create new playlist via simple api requests.
 
 Here i will focus on the request and the response returned by the api.
 
