@@ -23,7 +23,7 @@ the body of the request should contain following fields:
 
 ### A python example
 
-An python mplementation of thath request :
+An python mplementation of that request :
 
 ```python
 import requests
