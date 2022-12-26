@@ -3,6 +3,21 @@
 A very useful faeture in JavaScript to deal with user interactions is the event listener.
 The event listner can be used to listen at least any action perfomed by a user(click,scroll,hover,...) and respond to the specific action.
 
+## syntax 
+```js
+addEventListener(type, listener)
+addEventListener(type, listener, options)
+addEventListener(type, listener, useCapture)
+```
+
+ The ```type ``` is a string representing the event type to listen for .
+ 
+ 
+ The ```listener``` The object that receives a notification (an object that implements the Event interface) when an event of the specified type occurs.
+ 
+ 
+ The ```options ``` An object that specifies characteristics about the event listener, view [doc](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#parameters). 
+ 
 ## Event Listener - examples
 
 #### On DOM Content Loaded
@@ -42,4 +57,5 @@ div.addEventListener('click', function(){
 }) 
 ```
 
-
+## References :
+- [EventTarget.addEventListener() - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
