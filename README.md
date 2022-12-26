@@ -29,6 +29,7 @@ A  collection of small notes detailing what I learn each day.
 - [Conditions](javascript/conditions.md)
 - [functions in Js](javascript/functions.md)
 - [QuerySelector](javascript/query_selector.md)
+- [Event Listener](javascript/event_listener.md)
 <br/>
 
 ### Spotify API
