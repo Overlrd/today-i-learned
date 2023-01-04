@@ -8,6 +8,7 @@ A  collection of small notes detailing what I learn each day.
 * [JavaScript](#javascript)
 * [Youtube](#youtube)
 * [Spotify API](#spotify)
+* [Shell Scripting](https://github.com/Overlrd/Shell_Scripting)
 ---
 
 ### Computer_Vision
@@ -39,3 +40,7 @@ A  collection of small notes detailing what I learn each day.
 
 ### Youtube
 - [Timestamps](youtube/timestamps.md)
+
+
+### Bash Functions and exit codes
+- [start_project.sh](https://github.com/Overlrd/Shell_Scripting/blob/main/Utilities/start_project.sh)
